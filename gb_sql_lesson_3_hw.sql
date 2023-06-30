@@ -101,6 +101,7 @@ SELECT * FROM staff;
 
 -- Отсортируйте поле “зарплата” в порядке убывания и возрастания
 SELECT * FROM staff ORDER BY salary;
+SELECT * FROM staff ORDER BY salary desc;
 
 -- Отсортируйте по возрастанию поле “Зарплата” и выведите 5 строк с наибольшей заработной платой (возможен подзапрос)
 SELECT * FROM staff ORDER BY salary desc LIMIT 5;
